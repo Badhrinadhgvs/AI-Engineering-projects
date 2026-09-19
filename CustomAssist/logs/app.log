@@ -1,0 +1,48 @@
+2026-09-19 13:05:04,743 [INFO] root: Hi there
+2026-09-19 13:05:04,746 [INFO] root: Application Starting...
+2026-09-19 13:05:05,874 [INFO] root: Application Ending...
+2026-09-19 13:05:47,689 [INFO] root: Application Starting...
+2026-09-19 13:05:49,917 [INFO] root: PDF extraction completed
+2026-09-19 13:05:49,938 [INFO] root: Application Ending...
+2026-09-19 13:05:51,605 [INFO] root: Application Starting...
+2026-09-19 13:05:53,906 [INFO] root: PDF extraction completed
+2026-09-19 13:06:18,194 [INFO] datasets: PyTorch version 2.9.0 available.
+2026-09-19 13:06:21,807 [INFO] root: API Key is loaded succesfully
+2026-09-19 13:06:23,839 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-09-19 13:06:30,303 [INFO] root: Pre-processing is completed.
+2026-09-19 13:06:33,133 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-09-19 13:06:44,193 [INFO] root: Question Improved
+2026-09-19 13:06:44,193 [INFO] root: Data Improved Succesfully
+2026-09-19 13:06:44,193 [INFO] root: Chunks Created Succesfully
+2026-09-19 13:06:44,387 [INFO] chromadb.telemetry.product.posthog: Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-09-19 13:06:50,235 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-2-preview:batchEmbedContents "HTTP/1.1 200 OK"
+2026-09-19 13:06:51,934 [INFO] root: Successfully embedded and database created
+2026-09-19 13:06:52,019 [INFO] root: Vector database Created Successfully
+2026-09-19 13:06:52,865 [INFO] root: Application Starting...
+2026-09-19 13:06:52,897 [INFO] root: Application Ending...
+2026-09-19 13:07:10,006 [INFO] root: Application Starting...
+2026-09-19 13:07:10,699 [ERROR] root: Issue during retrieval
+2026-09-19 13:07:10,841 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-19 13:07:17,577 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-19 13:07:17,582 [INFO] root: Question enhanced successfully
+2026-09-19 13:07:17,589 [INFO] root: New question created
+2026-09-19 13:07:19,487 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-2-preview:batchEmbedContents "HTTP/1.1 200 OK"
+2026-09-19 13:07:20,240 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-09-19 13:07:21,571 [INFO] root: Chunks are reranked and sent
+2026-09-19 13:07:21,572 [INFO] root: Chunks created and sent
+2026-09-19 13:07:21,712 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-19 13:07:24,032 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-19 13:07:24,048 [INFO] root: Application Ending...
+2026-09-19 13:07:44,746 [INFO] root: Application Starting...
+2026-09-19 13:07:45,083 [ERROR] root: Issue during retrieval
+2026-09-19 13:07:45,215 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-19 13:07:51,371 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-19 13:07:51,376 [INFO] root: Question enhanced successfully
+2026-09-19 13:07:51,383 [INFO] root: New question created
+2026-09-19 13:07:52,594 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-embedding-2-preview:batchEmbedContents "HTTP/1.1 200 OK"
+2026-09-19 13:07:53,415 [INFO] httpx: HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-09-19 13:07:54,753 [INFO] root: Chunks are reranked and sent
+2026-09-19 13:07:54,753 [INFO] root: Chunks created and sent
+2026-09-19 13:07:54,893 [INFO] google_genai.models: AFC is enabled with max remote calls: 10.
+2026-09-19 13:08:05,503 [INFO] httpx: HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-3.6-flash:generateContent "HTTP/1.1 200 OK"
+2026-09-19 13:08:05,516 [INFO] root: Application Ending...
